@@ -1,0 +1,37 @@
+@media (min-width : 361px){
+    .articulos {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width : 50%;
+    }
+    
+    .imagen {
+        width: 90%;
+    }
+
+    #burger {
+        display: none;
+    }
+    
+    .SiteyLogin {
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: space-around;
+    }
+    footer {
+        text-align: center;
+    }
+    .iconosPie {
+        font-size: 2em;
+        margin-top: 8px;
+        text-align: center;
+    }
+    
+
+    .titulares {
+        text-align: center;
+        margin : 20px
+    }
+
+    
+   
+}

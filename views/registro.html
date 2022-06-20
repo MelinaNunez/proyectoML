@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "/public/css/FormReg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "stylesheet" href = "/public/css/FormReg-Desktop.css">
+    
+    <title>Creá tu cuenta</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <figure>
+                <a href = "/">
+                <img class = "Logo" src = "/public/imagenes/logo-mercado-liebre.svg" alt = "LOGO Mercado Liebre">
+                </a>
+            </figure>
+            <form action="/" method="get" id = "form-search">
+                <fieldset class = "barraBusqueda">
+                    <input type = "text" id = "search" name = "search" placeholder="Buscar productos y más">
+                     <i class = "fa-solid fa-search"></i>
+                </fieldset>
+            </form>
+
+        <h3 id = "subtitulo"><i class="fa-solid fa-hand-holding-dollar  icono"></i> Compra en cuotas y sin tarjetas de crédito </h3>
+        </div>
+            <nav class = "SiteyLogin">
+            <nav id = "site"> 
+            <a href = "#">Ofertas</a>
+            <a href = "#">Tiendas Oficiales</a>    
+            <a href = "#">Vender</a> 
+            <a href = "#">Ayuda</a>
+            </nav>
+    
+            <nav id = "login-bar"> 
+            <a href = "/login">Ingresá <i class="fa-solid fa-address-card  icono"></i></a>
+            <a href = "/registro"></i>Crea tu cuenta<i class="fa-solid fa-arrow-right-to-bracket  icono"></i></a>
+            <a href = "/carrito">Mis compras <i class="fa-solid fa-basket-shopping  icono"></i></a>
+            </nav>
+    
+    
+    </header>
+
+    <form action = "/views/registro.html" method = "post" enctype= "">
+        <fieldset> 
+        <label><b>Nombre y apellido</b></label>
+        <input class = "nombre" type = "text" name = "Nombre y apellido" id = "NombreyApellido" placeholder="Nombre y apellido" required>
+        
+        <label><b>Usuario</b></label>
+        <input class = "usuario" type = "text" name = "Usuario" id = "usuario" placeholder="Nombre de usuario" required>
+
+        <label><b>Fecha de nacimiento</b></label>
+        <input class = "fecha" type = "date" name = "fecha" id = "fecha" value = "2021-10-25" required>
+
+        <label> <b> Domicilio </b> </label>
+        <input class = "domicilio" type = "text" name = "Domicilio" id = "Domicilio" placeholder="Domicilio" required>
+
+        <label><b> Perfil del usuario</b></label>
+        <nav class = "Opciones" >
+        <label for = "radio" name = "Perfil del usuario" id = "Perfil del usuario">Comprador</label>
+        <input type = "radio" name = "Perfil del usuario" id = "Perfil del usuario" value = "Comprador" required>
+        <label for = "radio" name = "Perfil del usuario" id = "Perfil del usuario">Vendedor</label>
+        <input type = "radio" name = "Perfil del usuario" id = "Perfil del usuario" value = "Vendedor" required>
+        </nav>
+
+        <label><b> Intereses </b></label>
+        <label for = "checkbox" name = "intereses" id = "intereses">Electro</label>
+        <input type = "checkbox" name = "intereses" id = "intereses" value = "Electro">
+        <label for = "checkbox" name = "intereses" id = "intereses">Moda</label>
+        <input type = "checkbox" name = "intereses" id = "intereses" value = "Moda">
+        <label for = "checkbox" name = "intereses" id = "intereses">Hogar</label>
+        <input type = "checkbox" name = "intereses" id = "intereses" value = "Hogar">
+        <label for = "checkbox" name = "intereses" id = "intereses">Jugueteria</label>
+        <input type = "checkbox" name = "intereses" id = "intereses" value = "Jugueteria">
+        <label for = "checkbox" name = "intereses" id = "intereses">Vida sana</label>
+        <input type = "checkbox" name = "intereses" id = "intereses" value = "Vida sana">
+
+        <label><b>Seleccionar foto de perfil</b></label>
+        <input type = "file" name = "foto" id = "foto" accept = ".jpg" required>
+
+        <label>Contraseña</label>
+        <input class = "contraseña" type = "password" name = "password" id = "password" required>
+        <label>Confirmar contraseña</label>
+        <input class = "contraseña" type = "password" name = "password" id = "password" required>
+        
+        <button type = "submit" class = "enviar" id = "enviar"><a href = "home"></a>Enviar</button>
+        <button type = "reset" class ="borrar" id = "borrar">Borrar datos</button>
+        </fieldset>
+    </form>
+    <footer>
+        <section class = "footer"> 
+            <nav class = "iconosPie"><i class="fa-solid fa-credit-card"></i></nav>
+            <h2 class = "info"> Pagá con tarjeta o en efectivo </h2>
+            <p> 
+                Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro! 
+            </p>
+        
+        
+            <nav class = "iconosPie"><i class="fa-solid fa-gift"></i></nav>
+            <h2 class = "info"> Envío gratis desde $2.500 </h2>
+            <p>
+                Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.
+            </p>
+        
+            <nav i class = "iconosPie"><i class ="fa-solid fa-user-shield"></i></nav>
+            <h2 class = "info">Seguridad, de principio a fin</h2>
+            <p> 
+                ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                porque estás siempre protegid@.
+            </p>
+        </section>
+</footer>
+
+</body>
+</html>

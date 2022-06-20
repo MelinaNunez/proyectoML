@@ -1,0 +1,59 @@
+@media (min-width : 768px){
+     .articulos {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        gap : 20px;
+     }
+     .imagen {
+         width: 90%;
+     }
+     #burger {
+         display: none;
+     }
+     #site {
+         display: flex;
+         width: 30%;
+        justify-content: space-evenly;
+     }
+     #login-bar {
+        display: flex;
+        width: 30%;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: white;
+        margin-top: 8px;
+    }
+    .parrafo {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    h2.info {
+        font-size: 16px;
+        text-align: center;
+        } 
+    .iconosPie{
+        padding-top: 7px;
+        font-size: 2em;
+        text-align: center;
+        }
+    .iconosPie:hover {
+        color : #59FA00
+    }
+    .footers {
+        display: flex;
+        flex-direction: column;
+    }
+    .texto {
+        position: absolute;
+        bottom : -105%;
+        left : 8px
+    }
+
+}

@@ -1,0 +1,161 @@
+
+* {
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    border:none;
+    outline: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;  
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-right: 35%;
+    align-items: baseline;
+    background-color: #e6e6e6;
+    padding: auto;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-top: 8px;
+    
+}
+form fieldset input {
+    margin: 10px;
+    text-align: center;
+}
+
+
+.usuario {
+    border-radius: 8px;
+    width: auto;
+    height: 45px;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
+.nombre {
+    
+    border-radius: 8px;
+    width: auto;
+    height: 45px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.fecha {
+    border-radius: 8px;
+    width: auto;
+    height: 45px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.domicilio {
+    border-radius: 8px;
+    width: auto;
+    height: 45px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contraseña {
+    border-radius: 8px;
+    width: auto;
+    height: 45px;
+    text-align: left;
+    padding-left: 10px; 
+}
+
+
+
+header {
+    background-color: #EAC926;
+    
+}
+.icono {
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color : black;
+    margin-right: 10px;
+}
+
+
+
+
+figure {
+ 
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 350px;
+    height: 100px;
+}
+#subtitulo {
+    text-align: center;
+    font-family: roboto;
+    font-size: 16px;
+    display: flex;
+    align-items: baseline;
+    width: 33.33%;}
+#site {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    }
+#login-bar{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    }
+.SiteyLogin {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    }
+   
+
+
+div.contenedor {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: baseline;
+}
+
+.iconosPie{
+    font-size: 2em;
+}
+
+fieldset.barraBusqueda{
+    padding: 0%;
+    margin: 0;
+    background-color: #EAC926;
+    
+  
+}
+
+button {
+    display: flex;
+    justify-content: space-evenly;}
+p {
+    font-size: 14px;
+    text-align: center;
+    }
+.info {
+    font-size: 24px;
+    text-align: center;
+}
+.iconosPie {
+    text-align: center;
+    font-size: 2em;
+    }
