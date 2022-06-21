@@ -14,6 +14,9 @@ body {
     font-size: 2em;
     text-align: center;
 }
+footer {
+    text-align: center;
+}
 form fieldset {
     display: flex;
     flex-direction: column;
@@ -103,9 +106,6 @@ header {
 
 
 figure {
- 
-    padding-top: 10px;
-    padding-left: 50px;
     width: 350px;
     height: 100px;
 }

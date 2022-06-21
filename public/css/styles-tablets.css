@@ -12,11 +12,7 @@
         display: none;
     }
     
-    .SiteyLogin {
-        display: flex;
-        justify-content: space-evenly;
-        justify-content: space-around;
-    }
+   
     footer {
         text-align: center;
     }
