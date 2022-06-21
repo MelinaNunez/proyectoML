@@ -35,7 +35,8 @@
     .texto {
         position: absolute;
         bottom : -0%;
-        left : 8px
+        left : 8px;
+        text-align: center;
     }
 
     
