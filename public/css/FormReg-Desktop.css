@@ -5,21 +5,37 @@
         
     }
     .footer{
+        
         justify-content: space-around;
         display:flex;
         font-size: 18px;
         padding: 10px;
-        background-color: #e6e6e6;
+        background-color: white;
+        position: absolute;
+        bottom : auto
     }
 
     h2.info {
         font-size: 16px;
         text-align: center;
-        width: 33%;
+  
         }
     .iconobusqueda {
         text-decoration: none;
         background-color: white;
+    }
+    .iconosPie{
+        padding-top: 7px;
+        font-size: 2em;
+        text-align: center;
+        }
+    .iconosPie:hover {
+        color : #59FA00
+    }
+    .texto {
+        position: absolute;
+        bottom : -0%;
+        left : 8px
     }
 
     

@@ -160,6 +160,9 @@ fieldset.barraBusqueda{
         left : 8px
     }
 
-
-
+   fieldset.barraBusqueda {
+    border: none;
+    display: flex;
+    justify-content: center;
+   }
 

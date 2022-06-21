@@ -7,7 +7,8 @@
     outline: none;
 }
 body {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb ;  
 }
 
 form fieldset {
@@ -16,11 +17,13 @@ form fieldset {
     margin-left: 35%;
     margin-right: 35%;
     align-items: baseline;
-    background-color: #e6e6e6;
+    background-color: white;
     padding: auto;
     flex-wrap: wrap;
     padding-left: 10px;
     padding-top: 8px;
+    margin-top : 7px;
+    margin-bottom: 7px;
     
 }
 form fieldset input {
@@ -35,11 +38,12 @@ form fieldset input {
     height: 45px;
     text-align: left;
     padding-left: 10px;
+    background-color: #ebebeb;
     
 }
 
 .nombre {
-    
+    background-color: #ebebeb;
     border-radius: 8px;
     width: auto;
     height: 45px;
@@ -53,6 +57,7 @@ form fieldset input {
     height: 45px;
     text-align: left;
     padding-left: 10px;
+    background-color: #ebebeb;
 }
 
 .domicilio {
@@ -61,11 +66,13 @@ form fieldset input {
     height: 45px;
     text-align: left;
     padding-left: 10px;
+    background-color: #ebebeb;
 }
 
 .opciones {
     display: flex;
     justify-content: space-around;
+    background-color: #ebebeb;
 }
 
 .contraseña {
@@ -74,6 +81,7 @@ form fieldset input {
     height: 45px;
     text-align: left;
     padding-left: 10px; 
+    background-color: #ebebeb;
 }
 
 
@@ -132,9 +140,7 @@ div.contenedor {
     align-items: baseline;
 }
 
-.iconosPie{
-    font-size: 2em;
-}
+
 
 fieldset.barraBusqueda{
     padding: 0%;
@@ -147,15 +153,5 @@ fieldset.barraBusqueda{
 button {
     display: flex;
     justify-content: space-evenly;}
-p {
-    font-size: 14px;
-    text-align: center;
-    }
-.info {
-    font-size: 24px;
-    text-align: center;
-}
-.iconosPie {
-    text-align: center;
-    font-size: 2em;
-    }
+
+   
