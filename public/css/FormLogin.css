@@ -1,14 +1,5 @@
 
-button  {
-    
-    color :aliceblue;
-    font-size: 20px;
-    text-decoration: none;
-    border-radius: 6px;
-    display: inline-block;
-    box-sizing: border-box;
-    margin : 25px
-}
+@media (min-width : 768px){
 button:hover{
    background-color: #0022AA; 
 }
@@ -73,23 +64,12 @@ header {
 }
 
 figure {
-        padding-top: 10px;
-        padding-left: 50px;
-        width: 350px;
-        height: 100px;
-
+    width: 350px;
+    height: 100px;
     }
 
-.logo {
-    width:33.33%;
-}
-#subtitulo {
-    text-align: center;
-    font-family: roboto;
-    font-size: 16px;
-    display: flex;
-    align-items: baseline;
-    width: 33.33%;}
+
+
     #site {
     display: flex;
     width: 30%;
@@ -108,26 +88,31 @@ figure {
    
 
 
+#subtitulo {
+        text-align: center;
+        font-family: roboto;
+        font-size: 16px;
+        position: relative;
+        top: 50px;
+       
+    }
+    
 div.contenedor {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    align-items: baseline;
+    text-align: center;
+  
 }
 
-
-fieldset.barraBusqueda{
-    padding: 0%;
-    margin: 0;
-    background-color: #EAC926;}
-
+form#form-search{
     
-
-   fieldset.barraBusqueda {
+    left: 20px;
     border: none;
-    display: flex;
-    justify-content: center;
-   }
+
+    top:50px;
+    width: 33.33%;}
+
    footer {
     text-align: center;
 }
@@ -135,4 +120,5 @@ fieldset.barraBusqueda{
     font-size: 2em;
     margin-top: 8px;
     text-align: center
+}
 }

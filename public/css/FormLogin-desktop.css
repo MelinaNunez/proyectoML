@@ -39,4 +39,10 @@
         left : 8px;
         text-align: center;
     }
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left : 50%
+    }
 }
