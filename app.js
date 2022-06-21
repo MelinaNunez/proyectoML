@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 2000
 
-app.listen(4000, () => console.log('Servidor corriendo'));
+app.listen(port, () => console.log(`Abriendo servidor en https://localhost:${port}`));
 
 
 
