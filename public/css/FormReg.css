@@ -10,15 +10,16 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb ;  
 }
-
+.iconosPie {
+    font-size: 2em;
+    text-align: center;
+}
 form fieldset {
     display: flex;
     flex-direction: column;
-    margin-left: 35%;
-    margin-right: 35%;
     align-items: baseline;
     background-color: white;
-    padding: auto;
+    width : 30%;
     flex-wrap: wrap;
     padding-left: 10px;
     padding-top: 8px;
