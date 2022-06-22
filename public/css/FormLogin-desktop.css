@@ -1,19 +1,30 @@
 
-@media (min-width : 768px){
+@media (min-width : 769px){
 button:hover{
    background-color: #0022AA; 
 }
-
+button {
+    margin-top: 8px;
+    color : white;
+    font-size: 23px;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    box-sizing: border-box;
+}
 fieldset {
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    left: 40%;
     
 }
 form {
     text-align: center;
     width: 50%;
     position: relative;
-    left : 50px
+    
 }
 *{
     margin: 0px;
@@ -67,10 +78,7 @@ figure {
     width: 350px;
     height: 100px;
     }
-
-
-
-    #site {
+ #site {
     display: flex;
     width: 30%;
     justify-content: space-evenly;
@@ -83,36 +91,23 @@ figure {
 .SiteyLogin {
     display: flex;
     justify-content: space-evenly;
-    justify-content: space-around;
     }
-   
-
 
 #subtitulo {
         text-align: center;
         font-family: roboto;
         font-size: 16px;
+        position: relative ;
+        top : 40px;
+        right: 20px;
 }
-       
-    }
-    
-div.contenedor {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    text-align: center;
-  
-}
-
 form#form-search{
-    
-    left: 20px;
-    border: none;
+    text-align: center;
+    position: relative;
+    top : 40px
+   }
 
-    top:50px;
-    width: 33.33%;}
-
-   footer {
+footer {
     text-align: center;
 }
 .iconosPie {
@@ -121,14 +116,14 @@ form#form-search{
     text-align: center
 }
 .footer {
+    
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    font-size: 18px;
+    padding: 10px;
     background-color: white;
-    margin-top: 20px;
-    position: relative;
-    top : 240px
-   
+    position: absolute;
+    bottom:0px
+    
 }
 .parrafo {
     text-align: center;
@@ -161,3 +156,11 @@ h2.info {
     text-align: center;
 }
 
+div.contenedor {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px;
+}
+
+}

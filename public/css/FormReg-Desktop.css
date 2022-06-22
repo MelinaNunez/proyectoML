@@ -1,4 +1,11 @@
-@media screen and (min-width:768px){
+@media screen and (min-width:769px){
+    div.contenedor {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: baseline;
+    }
+    
     p{
         display: flex;
         font-size: 15px;
@@ -38,6 +45,20 @@
         left : 8px;
         text-align: center;
     }
-
+    #site {
+        display: flex;
+        width: 30%;
+        justify-content: space-evenly;
+        }
+    #login-bar{
+        display: flex;
+        width: 30%;
+        justify-content: space-evenly;
+        }
+    .SiteyLogin {
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: space-around;
+        }
     
 }

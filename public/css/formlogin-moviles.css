@@ -84,5 +84,12 @@
          padding-left: 10px;
          border: none;
      }
+     *{
+        margin: 0px;
+        padding: 0;
+        border: none;
+        outline: none;
+    }
+    
    
 }
