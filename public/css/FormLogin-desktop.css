@@ -1,30 +1,22 @@
 
-@media (min-width : 769px){
+@media (min-width : 768px){
 button:hover{
    background-color: #0022AA; 
 }
-button {
-    margin-top: 8px;
-    color : white;
-    font-size: 23px;
-    text-decoration: none;
-    border-radius: 6px;
-    display: inline-block;
-    box-sizing: border-box;
-}
+
 fieldset {
-    margin-top: 60px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
+    width : 90%;
     position: relative;
-    left: 40%;
-    
+    left : 50%;
 }
 form {
     text-align: center;
     width: 50%;
     position: relative;
-    
+    left : 50px
 }
 *{
     margin: 0px;
@@ -91,20 +83,32 @@ figure {
 .SiteyLogin {
     display: flex;
     justify-content: space-evenly;
+    justify-content: space-around;
     }
 
 #subtitulo {
-        text-align: center;
-        font-family: roboto;
-        font-size: 16px;
-        position: relative ;
+        position: relative;
         top : 40px;
-        right: 20px;
+        font-size: 16px;
+        right: 20px
+    
 }
-form#form-search{
+       
+    
+    
+div.contenedor {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
     text-align: center;
+    padding : 15px
+}
+
+form#form-search{
     position: relative;
-    top : 40px
+    top : 40px;
+   
+  
    }
 
 footer {
@@ -155,12 +159,4 @@ h2.info {
     left : 8px;
     text-align: center;
 }
-
-div.contenedor {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 15px;
-}
-
 }

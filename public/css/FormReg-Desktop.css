@@ -6,13 +6,11 @@
         align-items: baseline;
     }
     
-    p{
+    p {
         display: flex;
         font-size: 15px;
-        
     }
     .footer{
-        
         justify-content: space-around;
         display:flex;
         font-size: 18px;
