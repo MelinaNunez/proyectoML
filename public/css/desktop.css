@@ -6,14 +6,17 @@
     header{
         padding: 20px 50px;
     }
-    .header-section{
+    .sectionHeader{
         display: flex;
         flex-wrap: nowrap;
     }
-    .logo{
-        width: 260px;
+    .titulares {
+        text-align: center;
     }
-    .header-nav{
+    .logo{
+        width: 280px;
+    }
+    .headerNav {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -26,11 +29,8 @@
         justify-content: space-between;
         width: 40%;
     }
-    .section-main{
+    .sectionMain {
         margin-bottom: 20px;
-    }
-    .titulares {
-        text-align: center;
     }
     footer{
         display: flex;
@@ -89,12 +89,12 @@
         padding: 0;
         align-self: center;
     }
-    .header-section{
+    .sectionHeader{
         max-width: 1000px;
         margin: auto;
         justify-content: space-between;
     }
-    .header-nav{
+    .headerNav{
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
