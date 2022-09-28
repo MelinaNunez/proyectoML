@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const port = process.env.PORT || 2000
+const port = process.env.PORT || 2020
 
 app.listen(port, () => console.log(`Abriendo servidor en https://localhost:${port}`));
 
@@ -15,6 +15,6 @@ app.get('/', (req, res) => {
 app.get('/login',(req,res)=> {
     res.sendFile(path.join(__dirname,'/views/login.html'))
 })
-app.get('/registro',(req,res)=> {
-    res.sendFile(path.join(__dirname,'/views/registro.html'))
+app.get('/register',(req,res)=> {
+    res.sendFile(path.join(__dirname,'/views/register.html'))
 })

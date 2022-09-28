@@ -48,7 +48,7 @@
     h2{
         display: block;
     }
-    .nombre-producto{
+    .descripciones{
         opacity: 0%;
         transition-duration: 300ms;
     }
@@ -58,12 +58,11 @@
         margin: 0;
         cursor: pointer;
     }
-    article:hover .nombre-producto{
+    article:hover .descripciones{
         opacity: 100%;
     }
     article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        /* transform: scale(1.1); */
     }
     .fa-truck{
         transition: all 400ms;

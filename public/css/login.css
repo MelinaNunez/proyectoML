@@ -10,17 +10,17 @@
     margin: auto;
     padding: 15px;
 }
-.fieldset-login{
+.fieldset{
     display: flex;
     flex-wrap: wrap;
     margin: 10px 0;
     width: 100%;
 }
-.fieldset-login label{
+.fieldset label{
     margin: 18px 0;
     font-weight: 500;
 }
-.fieldset-login input{
+.fieldset input{
     border: 1px solid #666;
     border-radius: 5px;
 }
@@ -45,11 +45,11 @@
 .fieldset-a :visited{
     color: rgb(67, 46, 181);
 }
-.buttom-login{
+.button-login{
     width: 100%;
     justify-content: center;
 }
-.buttom-login button{
+.button-login button{
     color: #fff;
     background-color: #1259c3;
     width: 100%;
@@ -58,6 +58,6 @@
     margin-top: 30px;
     cursor: pointer;
 }
-.buttom-login button:hover{
+.button-login button:hover{
     background-color: #0022AA;
 }
